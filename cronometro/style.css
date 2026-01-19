@@ -1,8 +1,10 @@
 body{
     background-color: rgb(244, 154, 69);
+    margin: 0;
+    padding: 0;
 }
 
-header{
+header h1{
     text-align: center;
     color: black;
     margin-bottom: 75px;
@@ -22,7 +24,7 @@ header{
     margin-bottom: 20px;
     background-color: rgb(192, 136, 111);
     border: 6px solid rgb(255, 196, 140);
-    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.393);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.342);
 }
 
 #cronometro h2{
@@ -36,8 +38,17 @@ header{
 }
 
 #botoes input{
-    font-size: 20px;
-    border-radius: 15px;
+    padding: 6px;
+    font-size: 18px;
+    border-radius: 20px;
     background-color: rgb(255, 196, 140);
     border: 3px solid rgb(192, 136, 111);
+    transition: 0.3s ease;
+}
+
+#botoes input:hover{
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 22px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.342);
 }
