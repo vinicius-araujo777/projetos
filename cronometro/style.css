@@ -1,0 +1,43 @@
+body{
+    background-color: rgb(244, 154, 69);
+}
+
+header{
+    text-align: center;
+    color: black;
+    margin-bottom: 75px;
+}
+
+#cronometro{
+    display: flex;
+    justify-content: center;
+}
+
+#cronometro div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 170px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-color: rgb(192, 136, 111);
+    border: 6px solid rgb(255, 196, 140);
+    box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.393);
+}
+
+#cronometro h2{
+    text-align: center;
+    font-size: 80px;
+}
+
+#botoes p{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#botoes input{
+    font-size: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 196, 140);
+    border: 3px solid rgb(192, 136, 111);
+}
